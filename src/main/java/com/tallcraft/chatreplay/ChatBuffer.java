@@ -83,7 +83,7 @@ public class ChatBuffer {
             startIndex = 0;
         }
 
-//        logger.info("Replaying player '" + player.getDisplayName() + "' playerIndex: " + playerIndex +  " startIndex: " + startIndex + " bufferSize: " + bufferSize);
+        logger.info("Replaying player '" + player.getDisplayName() + "' playerIndex: " + playerIndex +  " startIndex: " + startIndex + " bufferSize: " + bufferSize);
 
 
         int replayedCounter = 0;
@@ -120,7 +120,7 @@ public class ChatBuffer {
         // Update player index for pagination
         modifyPlayerIndex(player.getUniqueId(), playerIndex, -replayedCounter);
 
-//        logger.info("Replayed player '" + player.getDisplayName() + "' playerIndex: " + getPlayerIndex(player.getUniqueId()) + " replayedCounter: " + replayedCounter);
+        logger.info("Replayed player '" + player.getDisplayName() + "' playerIndex: " + getPlayerIndex(player.getUniqueId()) + " replayedCounter: " + replayedCounter);
     }
 
     // TODO: move variable replacement to ChatMessage class
