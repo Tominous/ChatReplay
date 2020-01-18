@@ -5,7 +5,7 @@ import java.time.OffsetDateTime;
 import java.util.Date;
 
 public class ChatMessage {
-    public static String timestampFormat = "yyyy-MM-dd HH:mm";
+    public static String timestampFormat = "yyyy-MM-dd HH:mm:ss";
     private String playerName;
     private String message;
     private Date timestamp;
