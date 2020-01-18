@@ -74,10 +74,10 @@ public class ChatReplay extends JavaPlugin implements Listener {
 
         MemoryConfiguration defaultConfig = new MemoryConfiguration();
         defaultConfig.set("replayOnLogin", true);
-        defaultConfig.set("recordDiscordSRV", false);
+        defaultConfig.set("recordDiscordSRV", true);
         defaultConfig.set("bufferSize", 500);
         defaultConfig.set("viewSize", 70);
-        defaultConfig.set("timestampFormat", "yyyy-MM-dd HH:mm");
+        defaultConfig.set("timestampFormat", "yyyy-MM-dd HH:mm:ss");
         defaultConfig.set("replayHeader", "&7&lReplaying last {{msgCount}} messages");
         defaultConfig.set("replayFooter", "&7&lReplayed last {{msgCount}} messages");
         defaultConfig.set("replayMsgFormat", "&7[{{player}}]: {{message}}");
